@@ -1970,7 +1970,6 @@
 	)
 	(label "OUT4"
 		(at 54.61 104.14 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1981,7 +1980,6 @@
 	)
 	(label "DIAG2"
 		(at 102.87 116.84 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1992,7 +1990,6 @@
 	)
 	(label "IN4"
 		(at 124.46 109.22 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2003,7 +2000,6 @@
 	)
 	(label "DIAG3"
 		(at 54.61 90.17 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2014,7 +2010,6 @@
 	)
 	(label "IN1"
 		(at 102.87 109.22 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2025,7 +2020,6 @@
 	)
 	(label "IN2"
 		(at 102.87 114.3 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2036,7 +2030,6 @@
 	)
 	(label "IN1"
 		(at 31.75 50.8 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2047,7 +2040,6 @@
 	)
 	(label "DIAG2"
 		(at 54.61 72.39 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2058,7 +2050,6 @@
 	)
 	(label "OUT4"
 		(at 120.65 77.47 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2069,7 +2060,6 @@
 	)
 	(label "DIAG1"
 		(at 54.61 54.61 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2080,7 +2070,6 @@
 	)
 	(label "IN4"
 		(at 31.75 104.14 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2091,7 +2080,6 @@
 	)
 	(label "DIAG4"
 		(at 54.61 107.95 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2102,7 +2090,6 @@
 	)
 	(label "IN3"
 		(at 31.75 86.36 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2113,7 +2100,6 @@
 	)
 	(label "OUT1"
 		(at 54.61 50.8 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2124,7 +2110,6 @@
 	)
 	(label "DIAG3"
 		(at 102.87 121.92 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2135,7 +2120,6 @@
 	)
 	(label "OUT2"
 		(at 120.65 82.55 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2146,7 +2130,6 @@
 	)
 	(label "OUT3"
 		(at 120.65 80.01 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2157,7 +2140,6 @@
 	)
 	(label "DIAG4"
 		(at 124.46 111.76 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2168,7 +2150,6 @@
 	)
 	(label "IN3"
 		(at 102.87 119.38 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2179,7 +2160,6 @@
 	)
 	(label "IN2"
 		(at 31.75 68.58 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2190,7 +2170,6 @@
 	)
 	(label "OUT2"
 		(at 54.61 68.58 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2201,7 +2180,6 @@
 	)
 	(label "DIAG1"
 		(at 102.87 111.76 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2212,7 +2190,6 @@
 	)
 	(label "OUT1"
 		(at 120.65 85.09 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2223,7 +2200,6 @@
 	)
 	(label "OUT3"
 		(at 54.61 86.36 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2446,7 +2422,7 @@
 				)
 			)
 		)
-		(property "Value" "Conn_02x04_Top_Bottom"
+		(property "Value" "5569-08A2-210"
 			(at 114.3 73.66 0)
 			(effects
 				(font
@@ -3315,6 +3291,70 @@
 			(project "ESP32-PDM"
 				(path "/77f0f044-4c8a-4320-9763-77a575781bec"
 					(reference "#PWR013")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 39.37 148.59 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d801def5-88ff-405e-b6af-eb9f034b948b")
+		(property "Reference" "H2"
+			(at 41.91 147.3199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 41.91 149.8599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3mm"
+			(at 39.37 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 39.37 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 39.37 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "ESP32-PDM"
+				(path "/77f0f044-4c8a-4320-9763-77a575781bec"
+					(reference "H2")
 					(unit 1)
 				)
 			)

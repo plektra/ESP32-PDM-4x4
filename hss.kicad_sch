@@ -1146,7 +1146,6 @@
 	(hierarchical_label "OUT"
 		(shape input)
 		(at 110.49 88.9 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1158,7 +1157,6 @@
 	(hierarchical_label "DIAG"
 		(shape input)
 		(at 147.32 69.85 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1170,7 +1168,6 @@
 	(hierarchical_label "IN"
 		(shape input)
 		(at 111.76 77.47 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
