@@ -54,7 +54,8 @@
 		(symbol "TPS1H100AQPWPRQ1_1_0"
 			(polyline
 				(pts
-					(xy -12.7 -5.08) (xy -12.7 22.86)
+					(xy -12.7 -5.08)
+					(xy -12.7 22.86)
 				)
 				(stroke
 					(width 0.254)
@@ -66,7 +67,8 @@
 			)
 			(polyline
 				(pts
-					(xy -12.7 22.86) (xy 12.7 22.86)
+					(xy -12.7 22.86)
+					(xy 12.7 22.86)
 				)
 				(stroke
 					(width 0.254)
@@ -78,7 +80,8 @@
 			)
 			(polyline
 				(pts
-					(xy 12.7 -5.08) (xy -12.7 -5.08)
+					(xy 12.7 -5.08)
+					(xy -12.7 -5.08)
 				)
 				(stroke
 					(width 0.254)
@@ -90,7 +93,8 @@
 			)
 			(polyline
 				(pts
-					(xy 12.7 22.86) (xy 12.7 -5.08)
+					(xy 12.7 22.86)
+					(xy 12.7 -5.08)
 				)
 				(stroke
 					(width 0.254)
@@ -226,7 +230,7 @@
 					)
 				)
 			)
-			(pin power_out line
+			(pin passive line
 				(at -17.78 1.27 0)
 				(length 5.08)
 				(name "OUT"
@@ -244,7 +248,7 @@
 					)
 				)
 			)
-			(pin power_out line
+			(pin passive line
 				(at -17.78 -2.54 0)
 				(length 5.08)
 				(name "OUT"
@@ -593,7 +597,8 @@
 			)
 			(polyline
 				(pts
-					(xy -1.27 2.54) (xy 1.27 3.81)
+					(xy -1.27 2.54)
+					(xy 1.27 3.81)
 				)
 				(stroke
 					(width 0.254)
@@ -605,7 +610,8 @@
 			)
 			(polyline
 				(pts
-					(xy 1.27 0) (xy -1.27 -1.27)
+					(xy 1.27 0)
+					(xy -1.27 -1.27)
 				)
 				(stroke
 					(width 0.254)
@@ -617,7 +623,8 @@
 			)
 			(polyline
 				(pts
-					(xy 1.27 1.27) (xy -1.27 0)
+					(xy 1.27 1.27)
+					(xy -1.27 0)
 				)
 				(stroke
 					(width 0.254)
@@ -629,7 +636,8 @@
 			)
 			(polyline
 				(pts
-					(xy 1.27 2.54) (xy -1.27 1.27)
+					(xy 1.27 2.54)
+					(xy -1.27 1.27)
 				)
 				(stroke
 					(width 0.254)
