@@ -196,7 +196,8 @@
 			(symbol "PMEG045T100EPD_0_1"
 				(polyline
 					(pts
-						(xy 1.27 0) (xy -1.27 0)
+						(xy 1.27 0)
+						(xy -1.27 0)
 					)
 					(stroke
 						(width 0)
@@ -208,7 +209,10 @@
 				)
 				(polyline
 					(pts
-						(xy 1.27 1.27) (xy 1.27 -1.27) (xy -1.27 0) (xy 1.27 1.27)
+						(xy 1.27 1.27)
+						(xy 1.27 -1.27)
+						(xy -1.27 0)
+						(xy 1.27 1.27)
 					)
 					(stroke
 						(width 0.2032)
@@ -220,7 +224,12 @@
 				)
 				(polyline
 					(pts
-						(xy -1.905 0.635) (xy -1.905 1.27) (xy -1.27 1.27) (xy -1.27 -1.27) (xy -0.635 -1.27) (xy -0.635 -0.635)
+						(xy -1.905 0.635)
+						(xy -1.905 1.27)
+						(xy -1.27 1.27)
+						(xy -1.27 -1.27)
+						(xy -0.635 -1.27)
+						(xy -0.635 -0.635)
 					)
 					(stroke
 						(width 0.2032)
@@ -250,9 +259,9 @@
 						)
 					)
 				)
-				(pin passive line
+				(pin passive line hide
 					(at 3.81 0 180)
-					(length 2.54) hide
+					(length 2.54)
 					(name "A"
 						(effects
 							(font
@@ -340,7 +349,8 @@
 			(symbol "TPS1H100AQPWPRQ1_1_0"
 				(polyline
 					(pts
-						(xy -12.7 -5.08) (xy -12.7 22.86)
+						(xy -12.7 -5.08)
+						(xy -12.7 22.86)
 					)
 					(stroke
 						(width 0.254)
@@ -352,7 +362,8 @@
 				)
 				(polyline
 					(pts
-						(xy -12.7 22.86) (xy 12.7 22.86)
+						(xy -12.7 22.86)
+						(xy 12.7 22.86)
 					)
 					(stroke
 						(width 0.254)
@@ -364,7 +375,8 @@
 				)
 				(polyline
 					(pts
-						(xy 12.7 -5.08) (xy -12.7 -5.08)
+						(xy 12.7 -5.08)
+						(xy -12.7 -5.08)
 					)
 					(stroke
 						(width 0.254)
@@ -376,7 +388,8 @@
 				)
 				(polyline
 					(pts
-						(xy 12.7 22.86) (xy 12.7 -5.08)
+						(xy 12.7 22.86)
+						(xy 12.7 -5.08)
 					)
 					(stroke
 						(width 0.254)
@@ -663,8 +676,9 @@
 		(symbol "power:+3.3V"
 			(power)
 			(pin_numbers hide)
-			(pin_names
-				(offset 0) hide)
+			(pin_names hide
+				(offset 0)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -724,7 +738,8 @@
 			(symbol "+3.3V_0_1"
 				(polyline
 					(pts
-						(xy -0.762 1.27) (xy 0 2.54)
+						(xy -0.762 1.27)
+						(xy 0 2.54)
 					)
 					(stroke
 						(width 0)
@@ -736,7 +751,8 @@
 				)
 				(polyline
 					(pts
-						(xy 0 0) (xy 0 2.54)
+						(xy 0 0)
+						(xy 0 2.54)
 					)
 					(stroke
 						(width 0)
@@ -748,7 +764,8 @@
 				)
 				(polyline
 					(pts
-						(xy 0 2.54) (xy 0.762 1.27)
+						(xy 0 2.54)
+						(xy 0.762 1.27)
 					)
 					(stroke
 						(width 0)
@@ -783,8 +800,9 @@
 		(symbol "power:GND"
 			(power)
 			(pin_numbers hide)
-			(pin_names
-				(offset 0) hide)
+			(pin_names hide
+				(offset 0)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -844,7 +862,12 @@
 			(symbol "GND_0_1"
 				(polyline
 					(pts
-						(xy 0 0) (xy 0 -1.27) (xy 1.27 -1.27) (xy 0 -2.54) (xy -1.27 -1.27) (xy 0 -1.27)
+						(xy 0 0)
+						(xy 0 -1.27)
+						(xy 1.27 -1.27)
+						(xy 0 -2.54)
+						(xy -1.27 -1.27)
+						(xy 0 -1.27)
 					)
 					(stroke
 						(width 0)
@@ -879,8 +902,9 @@
 		(symbol "power:VS"
 			(power)
 			(pin_numbers hide)
-			(pin_names
-				(offset 0) hide)
+			(pin_names hide
+				(offset 0)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -940,7 +964,8 @@
 			(symbol "VS_0_1"
 				(polyline
 					(pts
-						(xy 0 0) (xy 0 2.54)
+						(xy 0 0)
+						(xy 0 2.54)
 					)
 					(stroke
 						(width 0)
@@ -952,7 +977,10 @@
 				)
 				(polyline
 					(pts
-						(xy 0.762 1.27) (xy -0.762 1.27) (xy 0 2.54) (xy 0.762 1.27)
+						(xy 0.762 1.27)
+						(xy -0.762 1.27)
+						(xy 0 2.54)
+						(xy 0.762 1.27)
 					)
 					(stroke
 						(width 0)
@@ -984,6 +1012,161 @@
 				)
 			)
 		)
+		(symbol "Device:D_Schottky"
+			(pin_numbers hide)
+			(pin_names hide
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "D_Schottky"
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Schottky diode"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "diode Schottky"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "TO-???* *_Diode_* *SingleDiode* D_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "D_Schottky_0_1"
+				(polyline
+					(pts
+						(xy 1.27 0)
+						(xy -1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 1.27)
+						(xy 1.27 -1.27)
+						(xy -1.27 0)
+						(xy 1.27 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.905 0.635)
+						(xy -1.905 1.27)
+						(xy -1.27 1.27)
+						(xy -1.27 -1.27)
+						(xy -0.635 -1.27)
+						(xy -0.635 -0.635)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "D_Schottky_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 	)
 	(junction
 		(at 147.32 92.71)
@@ -1005,7 +1188,8 @@
 	)
 	(wire
 		(pts
-			(xy 151.13 85.09) (xy 151.13 88.9)
+			(xy 151.13 85.09)
+			(xy 151.13 88.9)
 		)
 		(stroke
 			(width 0)
@@ -1015,7 +1199,8 @@
 	)
 	(wire
 		(pts
-			(xy 147.32 85.09) (xy 147.32 88.9)
+			(xy 147.32 85.09)
+			(xy 147.32 88.9)
 		)
 		(stroke
 			(width 0)
@@ -1025,7 +1210,8 @@
 	)
 	(wire
 		(pts
-			(xy 111.76 88.9) (xy 111.76 92.71)
+			(xy 111.76 88.9)
+			(xy 111.76 92.71)
 		)
 		(stroke
 			(width 0)
@@ -1035,7 +1221,8 @@
 	)
 	(wire
 		(pts
-			(xy 147.32 73.66) (xy 152.4 73.66)
+			(xy 147.32 73.66)
+			(xy 152.4 73.66)
 		)
 		(stroke
 			(width 0)
@@ -1045,7 +1232,8 @@
 	)
 	(wire
 		(pts
-			(xy 151.13 96.52) (xy 147.32 96.52)
+			(xy 151.13 96.52)
+			(xy 147.32 96.52)
 		)
 		(stroke
 			(width 0)
@@ -1055,7 +1243,8 @@
 	)
 	(wire
 		(pts
-			(xy 147.32 77.47) (xy 151.13 77.47)
+			(xy 147.32 77.47)
+			(xy 151.13 77.47)
 		)
 		(stroke
 			(width 0)
@@ -1065,7 +1254,8 @@
 	)
 	(wire
 		(pts
-			(xy 147.32 96.52) (xy 147.32 92.71)
+			(xy 147.32 96.52)
+			(xy 147.32 92.71)
 		)
 		(stroke
 			(width 0)
@@ -1075,7 +1265,8 @@
 	)
 	(wire
 		(pts
-			(xy 151.13 88.9) (xy 161.29 88.9)
+			(xy 151.13 88.9)
+			(xy 161.29 88.9)
 		)
 		(stroke
 			(width 0)
@@ -1085,7 +1276,8 @@
 	)
 	(wire
 		(pts
-			(xy 158.75 96.52) (xy 161.29 96.52)
+			(xy 158.75 96.52)
+			(xy 161.29 96.52)
 		)
 		(stroke
 			(width 0)
@@ -1095,7 +1287,8 @@
 	)
 	(wire
 		(pts
-			(xy 110.49 88.9) (xy 111.76 88.9)
+			(xy 110.49 88.9)
+			(xy 111.76 88.9)
 		)
 		(stroke
 			(width 0)
@@ -1105,7 +1298,8 @@
 	)
 	(wire
 		(pts
-			(xy 111.76 85.09) (xy 111.76 88.9)
+			(xy 111.76 85.09)
+			(xy 111.76 88.9)
 		)
 		(stroke
 			(width 0)
@@ -1115,7 +1309,8 @@
 	)
 	(wire
 		(pts
-			(xy 104.14 73.66) (xy 111.76 73.66)
+			(xy 104.14 73.66)
+			(xy 111.76 73.66)
 		)
 		(stroke
 			(width 0)
@@ -1125,7 +1320,8 @@
 	)
 	(wire
 		(pts
-			(xy 161.29 73.66) (xy 160.02 73.66)
+			(xy 161.29 73.66)
+			(xy 160.02 73.66)
 		)
 		(stroke
 			(width 0)
@@ -1135,7 +1331,8 @@
 	)
 	(wire
 		(pts
-			(xy 147.32 92.71) (xy 147.32 88.9)
+			(xy 147.32 92.71)
+			(xy 147.32 88.9)
 		)
 		(stroke
 			(width 0)
@@ -1156,7 +1353,7 @@
 	)
 	(hierarchical_label "DIAG"
 		(shape input)
-		(at 147.32 69.85 0)
+		(at 158.75 69.85 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1167,7 +1364,7 @@
 	)
 	(hierarchical_label "IN"
 		(shape input)
-		(at 111.76 77.47 180)
+		(at 95.25 77.47 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1175,84 +1372,6 @@
 			(justify right)
 		)
 		(uuid "fe36b09d-3e8a-4039-82cc-21f26af9b174")
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 104.14 73.66 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "00534efc-cad5-451a-bd57-cc430daaa520")
-		(property "Reference" "#PWR025"
-			(at 104.14 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 104.14 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 104.14 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 104.14 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 104.14 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "0e871afb-29b9-4d86-af06-c86192c32e9a")
-		)
-		(instances
-			(project "ESP32-PDM"
-				(path "/77f0f044-4c8a-4320-9763-77a575781bec/320a4353-39e5-4d3f-bddd-b8f5d4b99b21"
-					(reference "#PWR025")
-					(unit 1)
-				)
-				(path "/77f0f044-4c8a-4320-9763-77a575781bec/b3141720-4b20-4c55-afb4-4c446b42fccb"
-					(reference "#PWR06")
-					(unit 1)
-				)
-				(path "/77f0f044-4c8a-4320-9763-77a575781bec/cda3d90b-a08e-41ae-9565-1f9302b4b7b5"
-					(reference "#PWR018")
-					(unit 1)
-				)
-				(path "/77f0f044-4c8a-4320-9763-77a575781bec/df741068-1b51-4579-a9e1-d1030dd5ba08"
-					(reference "#PWR012")
-					(unit 1)
-				)
-			)
-		)
 	)
 	(symbol
 		(lib_id "Device:R")
@@ -1273,7 +1392,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "2.2k"
+		(property "Value" "4.7k"
 			(at 153.67 82.5499 0)
 			(effects
 				(font
@@ -1309,6 +1428,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C25900"
+			(at 151.13 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "0fc5ff87-5316-4d2f-b337-c04b4075f1ca")
 		)
@@ -1331,84 +1459,6 @@
 				)
 				(path "/77f0f044-4c8a-4320-9763-77a575781bec/df741068-1b51-4579-a9e1-d1030dd5ba08"
 					(reference "R5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 129.54 97.79 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "a6250799-dcb3-44c3-ab00-6dc256d550ed")
-		(property "Reference" "#PWR026"
-			(at 129.54 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 129.54 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 129.54 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 129.54 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 129.54 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "7cb52447-36d9-4cfb-a0e0-defcb8b1c7d1")
-		)
-		(instances
-			(project "ESP32-PDM"
-				(path "/77f0f044-4c8a-4320-9763-77a575781bec/320a4353-39e5-4d3f-bddd-b8f5d4b99b21"
-					(reference "#PWR026")
-					(unit 1)
-				)
-				(path "/77f0f044-4c8a-4320-9763-77a575781bec/b3141720-4b20-4c55-afb4-4c446b42fccb"
-					(reference "#PWR07")
-					(unit 1)
-				)
-				(path "/77f0f044-4c8a-4320-9763-77a575781bec/cda3d90b-a08e-41ae-9565-1f9302b4b7b5"
-					(reference "#PWR020")
-					(unit 1)
-				)
-				(path "/77f0f044-4c8a-4320-9763-77a575781bec/df741068-1b51-4579-a9e1-d1030dd5ba08"
-					(reference "#PWR014")
 					(unit 1)
 				)
 			)
@@ -1512,7 +1562,7 @@
 				)
 			)
 		)
-		(property "Value" "TPS1H100AQPWPRQ1"
+		(property "Value" "TPS27S100APWPR"
 			(at 129.54 64.77 0)
 			(effects
 				(font
@@ -1529,7 +1579,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/tps1h100-q1.pdf"
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/tps27s100.pdf"
 			(at 129.54 90.17 0)
 			(effects
 				(font
@@ -1539,6 +1589,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 129.54 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C2879389"
 			(at 129.54 90.17 0)
 			(effects
 				(font
@@ -1769,18 +1828,160 @@
 			)
 		)
 	)
-	(symbol
-		(lib_id "power:GND")
+	(wire
+		(pts
+			(xy 151.13 96.52)
+			(xy 158.75 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e413df43-24df-40f7-9947-ddc4f01b5c81")
+	)
+	(label "DGND"
+		(at 104.14 73.66 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "98722897-f363-4552-9571-c603796b874a")
+	)
+	(label "DGND"
+		(at 129.54 97.79 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "c3769ade-50ff-4caa-a081-7633bb28b501")
+	)
+	(label "DGND"
 		(at 161.29 73.66 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "471f403b-a063-4a26-bb7e-c9706b23dcbf")
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 172.72 81.28 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "f50de2ff-9645-440d-b060-c00b0041707e")
-		(property "Reference" "#PWR027"
-			(at 161.29 80.01 0)
+		(uuid "aeb3f7e8-cbaf-46f3-89d3-84dbe48ab19e")
+		(property "Reference" "R21"
+			(at 175.26 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1k"
+			(at 175.26 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 172.72 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 172.72 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 172.72 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C11702"
+			(at 172.72 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5fd41f9b-470f-4588-a8a7-9a427259fd34")
+		)
+		(pin "2"
+			(uuid "36fd64cb-10b3-4d24-bba2-eb58f8477a5f")
+		)
+		(instances
+			(project "ESP32-PDM"
+				(path "/77f0f044-4c8a-4320-9763-77a575781bec/320a4353-39e5-4d3f-bddd-b8f5d4b99b21"
+					(reference "R21")
+					(unit 1)
+				)
+				(path "/77f0f044-4c8a-4320-9763-77a575781bec/b3141720-4b20-4c55-afb4-4c446b42fccb"
+					(reference "R22")
+					(unit 1)
+				)
+				(path "/77f0f044-4c8a-4320-9763-77a575781bec/df741068-1b51-4579-a9e1-d1030dd5ba08"
+					(reference "R23")
+					(unit 1)
+				)
+				(path "/77f0f044-4c8a-4320-9763-77a575781bec/cda3d90b-a08e-41ae-9565-1f9302b4b7b5"
+					(reference "R24")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(label "DGND"
+		(at 172.72 77.47 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "3bdde8b6-63d2-4f40-a7ad-58c30a6917e6")
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 172.72 85.09 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e506297c-5a66-436c-9865-d68aeb7acc98")
+		(property "Reference" "#PWR030"
+			(at 175.26 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1789,15 +1990,16 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 161.29 78.74 0)
+			(at 175.26 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
-			(at 161.29 73.66 0)
+			(at 172.72 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1806,7 +2008,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 161.29 73.66 0)
+			(at 172.72 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1815,7 +2017,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 161.29 73.66 0)
+			(at 172.72 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1824,65 +2026,59 @@
 			)
 		)
 		(pin "1"
-			(uuid "740b960b-131b-4777-8187-35145becf458")
+			(uuid "9b26cc81-792e-4578-86dd-f512e58b5af8")
 		)
 		(instances
 			(project "ESP32-PDM"
 				(path "/77f0f044-4c8a-4320-9763-77a575781bec/320a4353-39e5-4d3f-bddd-b8f5d4b99b21"
-					(reference "#PWR027")
+					(reference "#PWR030")
 					(unit 1)
 				)
 				(path "/77f0f044-4c8a-4320-9763-77a575781bec/b3141720-4b20-4c55-afb4-4c446b42fccb"
-					(reference "#PWR08")
-					(unit 1)
-				)
-				(path "/77f0f044-4c8a-4320-9763-77a575781bec/cda3d90b-a08e-41ae-9565-1f9302b4b7b5"
-					(reference "#PWR021")
+					(reference "#PWR031")
 					(unit 1)
 				)
 				(path "/77f0f044-4c8a-4320-9763-77a575781bec/df741068-1b51-4579-a9e1-d1030dd5ba08"
-					(reference "#PWR015")
+					(reference "#PWR032")
+					(unit 1)
+				)
+				(path "/77f0f044-4c8a-4320-9763-77a575781bec/cda3d90b-a08e-41ae-9565-1f9302b4b7b5"
+					(reference "#PWR033")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "Diode:PMEG045T100EPD")
-		(at 154.94 96.52 0)
+		(lib_id "Device:D_Schottky")
+		(at 180.34 81.28 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "ffe05d84-49a2-4bde-868b-1754e8a0d274")
+		(fields_autoplaced yes)
+		(uuid "3bc109bd-9384-4188-9767-8b526da6dfe0")
 		(property "Reference" "D1"
-			(at 154.686 100.076 0)
+			(at 182.88 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Value" "PMEG045V100EPE"
-			(at 154.94 103.124 0)
+		(property "Value" "DSK16"
+			(at 182.88 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:TO-277A"
-			(at 154.94 100.965 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/PMEG045T100EPD.pdf"
-			(at 154.94 96.52 0)
+		(property "Footprint" "Diode_SMD:D_SOD-123F"
+			(at 180.34 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1890,8 +2086,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "45V, 10A low Vf Trench MEGA Schottky barrier rectifier, SOT-1289"
-			(at 154.94 96.52 0)
+		(property "Datasheet" "~"
+			(at 180.34 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1899,14 +2095,29 @@
 				(hide yes)
 			)
 		)
-		(pin "2"
-			(uuid "c2beca5b-a9ff-4007-9cad-a65bfcc34127")
+		(property "Description" "Schottky diode"
+			(at 180.34 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
 		)
-		(pin "3"
-			(uuid "1069b92a-6701-4247-8373-7316ce41280d")
+		(property "LCSC" "C22466351"
+			(at 180.34 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
 		)
 		(pin "1"
-			(uuid "87861ed5-22c0-4921-9598-cdc6563accb6")
+			(uuid "89105c6d-bf2c-4c42-95e7-203527f50c53")
+		)
+		(pin "2"
+			(uuid "7315138f-47c2-4b21-b3fa-deeacbf70293")
 		)
 		(instances
 			(project "ESP32-PDM"
@@ -1918,15 +2129,506 @@
 					(reference "D2")
 					(unit 1)
 				)
-				(path "/77f0f044-4c8a-4320-9763-77a575781bec/cda3d90b-a08e-41ae-9565-1f9302b4b7b5"
-					(reference "D4")
-					(unit 1)
-				)
 				(path "/77f0f044-4c8a-4320-9763-77a575781bec/df741068-1b51-4579-a9e1-d1030dd5ba08"
 					(reference "D3")
 					(unit 1)
 				)
+				(path "/77f0f044-4c8a-4320-9763-77a575781bec/cda3d90b-a08e-41ae-9565-1f9302b4b7b5"
+					(reference "D4")
+					(unit 1)
+				)
 			)
 		)
+	)
+	(label "DGND"
+		(at 180.34 77.47 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "b706cbfe-67e9-47f7-b0c6-2cab0992c33c")
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 180.34 85.09 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5ebade83-5ade-460f-b4fb-f9355fe6fdc6")
+		(property "Reference" "#PWR034"
+			(at 182.88 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 182.88 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 180.34 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 180.34 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 180.34 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "99ce95c8-54c1-460b-8c7e-9a7461063816")
+		)
+		(instances
+			(project "ESP32-PDM"
+				(path "/77f0f044-4c8a-4320-9763-77a575781bec/320a4353-39e5-4d3f-bddd-b8f5d4b99b21"
+					(reference "#PWR034")
+					(unit 1)
+				)
+				(path "/77f0f044-4c8a-4320-9763-77a575781bec/b3141720-4b20-4c55-afb4-4c446b42fccb"
+					(reference "#PWR035")
+					(unit 1)
+				)
+				(path "/77f0f044-4c8a-4320-9763-77a575781bec/df741068-1b51-4579-a9e1-d1030dd5ba08"
+					(reference "#PWR036")
+					(unit 1)
+				)
+				(path "/77f0f044-4c8a-4320-9763-77a575781bec/cda3d90b-a08e-41ae-9565-1f9302b4b7b5"
+					(reference "#PWR037")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 99.06 77.47 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6caf2182-3054-46f8-ac9a-5a47c876ea45")
+		(property "Reference" "R9"
+			(at 101.6 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "4.7k"
+			(at 101.6 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 99.06 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 99.06 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 99.06 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C25900"
+			(at 99.06 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9aa3becb-8469-4e8f-ac31-4ad33c86eb4d")
+		)
+		(pin "2"
+			(uuid "5bbfcdeb-a67b-4b93-b9f9-979a2284abb0")
+		)
+		(instances
+			(project "ESP32-PDM"
+				(path "/77f0f044-4c8a-4320-9763-77a575781bec/320a4353-39e5-4d3f-bddd-b8f5d4b99b21"
+					(reference "R9")
+					(unit 1)
+				)
+				(path "/77f0f044-4c8a-4320-9763-77a575781bec/b3141720-4b20-4c55-afb4-4c446b42fccb"
+					(reference "R10")
+					(unit 1)
+				)
+				(path "/77f0f044-4c8a-4320-9763-77a575781bec/df741068-1b51-4579-a9e1-d1030dd5ba08"
+					(reference "R11")
+					(unit 1)
+				)
+				(path "/77f0f044-4c8a-4320-9763-77a575781bec/cda3d90b-a08e-41ae-9565-1f9302b4b7b5"
+					(reference "R12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(wire
+		(pts
+			(xy 102.87 77.47)
+			(xy 111.76 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "807c2519-b6da-4692-93fb-5e479927ceff")
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 154.94 69.85 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9d8e5374-37b2-4050-ba79-043158b540f9")
+		(property "Reference" "R13"
+			(at 157.48 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "4.7k"
+			(at 157.48 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 154.94 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 154.94 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 154.94 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C25900"
+			(at 154.94 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "10d74ea6-0628-4216-8b6c-3b4b5e81af8d")
+		)
+		(pin "2"
+			(uuid "fe69da82-86e3-4263-8d97-5682798ed549")
+		)
+		(instances
+			(project "ESP32-PDM"
+				(path "/77f0f044-4c8a-4320-9763-77a575781bec/320a4353-39e5-4d3f-bddd-b8f5d4b99b21"
+					(reference "R13")
+					(unit 1)
+				)
+				(path "/77f0f044-4c8a-4320-9763-77a575781bec/b3141720-4b20-4c55-afb4-4c446b42fccb"
+					(reference "R14")
+					(unit 1)
+				)
+				(path "/77f0f044-4c8a-4320-9763-77a575781bec/df741068-1b51-4579-a9e1-d1030dd5ba08"
+					(reference "R15")
+					(unit 1)
+				)
+				(path "/77f0f044-4c8a-4320-9763-77a575781bec/cda3d90b-a08e-41ae-9565-1f9302b4b7b5"
+					(reference "R16")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(wire
+		(pts
+			(xy 147.32 69.85)
+			(xy 149.86 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1d8726eb-79f8-4afc-ad31-680d418e0fcd")
+	)
+	(wire
+		(pts
+			(xy 149.86 69.85)
+			(xy 151.13 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9573829f-8169-41e4-99d9-da7035ac4f6e")
+	)
+	(junction
+		(at 149.86 69.85)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8eccd91f-aa27-45d5-adef-057eb0d63e29")
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 149.86 66.04 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9485924e-00ee-45bd-b5a5-1c78a010987d")
+		(property "Reference" "R17"
+			(at 152.4 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10k"
+			(at 152.4 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 149.86 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 149.86 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 149.86 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C25744"
+			(at 149.86 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ae00443e-782c-46d5-8a66-1cf48b7251b8")
+		)
+		(pin "2"
+			(uuid "3dded63c-2757-43f6-9560-348895861eda")
+		)
+		(instances
+			(project "ESP32-PDM"
+				(path "/77f0f044-4c8a-4320-9763-77a575781bec/320a4353-39e5-4d3f-bddd-b8f5d4b99b21"
+					(reference "R17")
+					(unit 1)
+				)
+				(path "/77f0f044-4c8a-4320-9763-77a575781bec/b3141720-4b20-4c55-afb4-4c446b42fccb"
+					(reference "R18")
+					(unit 1)
+				)
+				(path "/77f0f044-4c8a-4320-9763-77a575781bec/df741068-1b51-4579-a9e1-d1030dd5ba08"
+					(reference "R19")
+					(unit 1)
+				)
+				(path "/77f0f044-4c8a-4320-9763-77a575781bec/cda3d90b-a08e-41ae-9565-1f9302b4b7b5"
+					(reference "R20")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 149.86 62.23 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "13fcb232-c277-4866-b1ce-c772a7eb8319")
+		(property "Reference" "#PWR038"
+			(at 152.4 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 152.4 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 149.86 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 149.86 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 149.86 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7c5d2fa6-918e-470e-a56b-be1687547fb6")
+		)
+		(instances
+			(project "ESP32-PDM"
+				(path "/77f0f044-4c8a-4320-9763-77a575781bec/320a4353-39e5-4d3f-bddd-b8f5d4b99b21"
+					(reference "#PWR038")
+					(unit 1)
+				)
+				(path "/77f0f044-4c8a-4320-9763-77a575781bec/b3141720-4b20-4c55-afb4-4c446b42fccb"
+					(reference "#PWR039")
+					(unit 1)
+				)
+				(path "/77f0f044-4c8a-4320-9763-77a575781bec/df741068-1b51-4579-a9e1-d1030dd5ba08"
+					(reference "#PWR040")
+					(unit 1)
+				)
+				(path "/77f0f044-4c8a-4320-9763-77a575781bec/cda3d90b-a08e-41ae-9565-1f9302b4b7b5"
+					(reference "#PWR041")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(text "TPS27S100A (pin-compatible with this TPS1H100A symbol: VS=IN, IN=EN, ST=FLT, CL=ILIM).\nReverse polarity: GND network 1k || DSK16 (TPS27S100 datasheet 7.3.4.7); ILIM and thermal pad on DGND.\nCurrent limit = 1.233 V x 2000 / R_ILIM: 560 R -> about 4.4 A (+-20 %).\n4.7k series on EN and FLT per datasheet; FLT pull-up lives on the module."
+		(exclude_from_sim no)
+		(at 100.33 50.8 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "7b6d2f4f-b617-4d54-8ac1-84bdf2f8f3f4")
 	)
 )
