@@ -1473,7 +1473,7 @@
 	)
 	(hierarchical_label "DIAG"
 		(shape input)
-		(at 158.75 69.85 0)
+		(at 170.18 69.85 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1691,7 +1691,7 @@
 				)
 			)
 		)
-		(property "Value" "TPS27S100APWPR"
+		(property "Value" "TPS27S100BPWPR"
 			(at 129.54 64.77 0)
 			(effects
 				(font
@@ -1726,7 +1726,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C2879389"
+		(property "LCSC" "C2680365"
 			(at 129.54 90.17 0)
 			(effects
 				(font
@@ -2598,7 +2598,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10k"
+		(property "Value" "330"
 			(at 152.4 67.31 0)
 			(effects
 				(font
@@ -2634,7 +2634,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C25744"
+		(property "LCSC" "C25104"
 			(at 149.86 66.04 0)
 			(effects
 				(font
@@ -2670,86 +2670,7 @@
 			)
 		)
 	)
-	(symbol
-		(lib_id "power:+3.3V")
-		(at 149.86 62.23 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "13fcb232-c277-4866-b1ce-c772a7eb8319")
-		(property "Reference" "#PWR038"
-			(at 152.4 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3.3V"
-			(at 152.4 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 149.86 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 149.86 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 149.86 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "7c5d2fa6-918e-470e-a56b-be1687547fb6")
-		)
-		(instances
-			(project "ESP32-PDM"
-				(path "/77f0f044-4c8a-4320-9763-77a575781bec/320a4353-39e5-4d3f-bddd-b8f5d4b99b21"
-					(reference "#PWR038")
-					(unit 1)
-				)
-				(path "/77f0f044-4c8a-4320-9763-77a575781bec/b3141720-4b20-4c55-afb4-4c446b42fccb"
-					(reference "#PWR039")
-					(unit 1)
-				)
-				(path "/77f0f044-4c8a-4320-9763-77a575781bec/df741068-1b51-4579-a9e1-d1030dd5ba08"
-					(reference "#PWR040")
-					(unit 1)
-				)
-				(path "/77f0f044-4c8a-4320-9763-77a575781bec/cda3d90b-a08e-41ae-9565-1f9302b4b7b5"
-					(reference "#PWR041")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(text "TPS27S100A (pin-compatible with this TPS1H100A symbol: VS=IN, IN=EN, ST=FLT, CL=ILIM).\nReverse polarity: GND network 1k || DSK16 (TPS27S100 datasheet 7.3.4.7); ILIM and thermal pad on DGND.\nCurrent limit = 1.233 V x 2000 / R_ILIM: 560 R -> about 4.4 A (+-20 %).\n4.7k series on EN and FLT per datasheet; FLT pull-up lives on the module."
+	(text "TPS27S100B (pin-compatible with this TPS1H100A symbol: VS=IN, IN=EN, ST=IMON, CL=ILIM).\nReverse polarity: GND network 1k || DSK16 (datasheet 7.3.4.7); ILIM and thermal pad on DGND.\nCurrent limit = 1.233 V x 2000 / R_ILIM: 560 R -> about 4.4 A (+-20 %).\nIMON: I_load / 500 into 330 R || 14.7k (to board GND) -> 0.65 V/A; header DIAG = 0.68 x IMON\n(about 0.44 V/A; fault level 4.3-4.9 V -> 2.9-3.3 V). 4.7k series on EN and IMON per datasheet."
 		(exclude_from_sim no)
 		(at 100.33 50.8 0)
 		(effects
@@ -2834,6 +2755,283 @@
 				)
 				(path "/77f0f044-4c8a-4320-9763-77a575781bec/df741068-1b51-4579-a9e1-d1030dd5ba08"
 					(reference "#FLG04")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 149.86 62.23 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "cd2dc156-bab3-4384-bd97-6a13bf518cc2")
+		(property "Reference" "#PWR045"
+			(at 152.4 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 152.4 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 149.86 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 149.86 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 149.86 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "07237f0f-adb0-4746-9fd6-375a83194766")
+		)
+		(instances
+			(project "ESP32-PDM"
+				(path "/77f0f044-4c8a-4320-9763-77a575781bec/320a4353-39e5-4d3f-bddd-b8f5d4b99b21"
+					(reference "#PWR045")
+					(unit 1)
+				)
+				(path "/77f0f044-4c8a-4320-9763-77a575781bec/b3141720-4b20-4c55-afb4-4c446b42fccb"
+					(reference "#PWR046")
+					(unit 1)
+				)
+				(path "/77f0f044-4c8a-4320-9763-77a575781bec/cda3d90b-a08e-41ae-9565-1f9302b4b7b5"
+					(reference "#PWR047")
+					(unit 1)
+				)
+				(path "/77f0f044-4c8a-4320-9763-77a575781bec/df741068-1b51-4579-a9e1-d1030dd5ba08"
+					(reference "#PWR048")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(wire
+		(pts
+			(xy 158.75 69.85)
+			(xy 167.64 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1592ba59-6a90-475a-8a95-f934e0d027ae")
+	)
+	(wire
+		(pts
+			(xy 167.64 69.85)
+			(xy 170.18 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "72cb69df-cba5-4097-93dc-87f1730d6749")
+	)
+	(junction
+		(at 167.64 69.85)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "04d66b32-d55a-4e55-80b9-fedc0dfbc78b")
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 167.64 73.66 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a22385ce-5f95-4245-b363-3c4a54fca47c")
+		(property "Reference" "R25"
+			(at 170.18 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10k"
+			(at 170.18 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 167.64 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 167.64 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 167.64 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C25744"
+			(at 167.64 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "16f31730-9067-4051-bd3b-a2fe59ad85e6")
+		)
+		(pin "2"
+			(uuid "462305f9-542b-4df9-b0bf-d12e18ee30c7")
+		)
+		(instances
+			(project "ESP32-PDM"
+				(path "/77f0f044-4c8a-4320-9763-77a575781bec/320a4353-39e5-4d3f-bddd-b8f5d4b99b21"
+					(reference "R25")
+					(unit 1)
+				)
+				(path "/77f0f044-4c8a-4320-9763-77a575781bec/b3141720-4b20-4c55-afb4-4c446b42fccb"
+					(reference "R26")
+					(unit 1)
+				)
+				(path "/77f0f044-4c8a-4320-9763-77a575781bec/cda3d90b-a08e-41ae-9565-1f9302b4b7b5"
+					(reference "R27")
+					(unit 1)
+				)
+				(path "/77f0f044-4c8a-4320-9763-77a575781bec/df741068-1b51-4579-a9e1-d1030dd5ba08"
+					(reference "R28")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 167.64 77.47 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2ea94cda-2dcf-4f88-8e34-013e40ccd501")
+		(property "Reference" "#PWR049"
+			(at 170.18 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 170.18 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 167.64 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 167.64 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 167.64 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "19f15a53-991a-45a3-91c9-40a17c1d7ffb")
+		)
+		(instances
+			(project "ESP32-PDM"
+				(path "/77f0f044-4c8a-4320-9763-77a575781bec/320a4353-39e5-4d3f-bddd-b8f5d4b99b21"
+					(reference "#PWR049")
+					(unit 1)
+				)
+				(path "/77f0f044-4c8a-4320-9763-77a575781bec/b3141720-4b20-4c55-afb4-4c446b42fccb"
+					(reference "#PWR050")
+					(unit 1)
+				)
+				(path "/77f0f044-4c8a-4320-9763-77a575781bec/cda3d90b-a08e-41ae-9565-1f9302b4b7b5"
+					(reference "#PWR051")
+					(unit 1)
+				)
+				(path "/77f0f044-4c8a-4320-9763-77a575781bec/df741068-1b51-4579-a9e1-d1030dd5ba08"
+					(reference "#PWR052")
 					(unit 1)
 				)
 			)
